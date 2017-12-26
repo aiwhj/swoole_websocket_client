@@ -1,14 +1,16 @@
 {
-    "name": "aiwhj/swoole-ws-client",
+    "name": "aiwhj/swoole-websocket-client",
+    "keywords":["swoole","websocket","client"],
     "type": "library",
     "license": "MIT",
+    "version":"1.0.0",
+    "description":" web 调用 swoole 的 websocket 服务器客户端",
     "authors": [
         {
-            "name": "whj",
-            "email": "whj199649@gmail.com"
+            "name": "gy36",
+            "email": "997485446@qq.com"
         }
     ],
-    "minimum-stability": "stable",
     "require": {
         "php": ">=5.4.0"
     },

@@ -1,7 +1,7 @@
 <?php
 namespace aiwhj\swooleWsClient;
 
-require "../../autoload.php";
+require 'autoload.php';
 
 $client = new WebSocket('127.0.0.1', 2345, '/VH4OKgcjVHZTPlFzBnVTYwExCS9RdFdwDX5VdwFiV3ADaFRjBio=');
 

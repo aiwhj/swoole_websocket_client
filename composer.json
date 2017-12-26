@@ -8,8 +8,10 @@
             "email": "whj199649@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {},
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0"
+    },
     "autoload": {
     "psr-4": {
       "aiwhj\\swooleWsClient\\": "src/"

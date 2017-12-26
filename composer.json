@@ -1,0 +1,18 @@
+{
+    "name": "aiwhj/swooleWsClient",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "whj",
+            "email": "whj199649@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+    "psr-4": {
+      "aiwhj\\swooleWsClient\\": "src/"
+    }
+  }
+}

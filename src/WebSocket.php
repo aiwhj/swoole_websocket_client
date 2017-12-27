@@ -118,16 +118,12 @@ class WebSocket {
 		while (true) {
 
 			$_tmp = $this->socket->recv();
-			var_dump($_tmp);
-			echo '<br>';
 			if ($_tmp) {
 				$headerBuffer .= $_tmp;
-				//var_dump($headerBuffer);
 				if (substr($headerBuffer, -4, 4) != "\r\n\r\n") {
 					continue;
 				}
 			} else {
-				echo "fou" . "<br>";
 				return false;
 			}
 			return $this->doHandShake($headerBuffer);
@@ -174,7 +170,6 @@ class WebSocket {
 			return false;
 		}
 		while (true) {
-			echo "接受";
 			$data = $this->socket->recv();
 			if (!$data) {
 				return false;
